@@ -3,9 +3,9 @@
     <div class="flex flex-wrap lg:flex-nowrap gap-6 w-full">
       <!-- Prewiew -->
       <div class="w-full lg:w-1/2">
-        <div class="flex justify-end sticky top-32 w-[600px] h-[600px]">
-          <img width="500" height="500" src="/image/peak-bg.png" 
-          class="rounded-xl object-cover w-full h-full"/>
+        <div class="flex justify-end sticky top-32 max-w-full max-h-full">
+          <img width="500" height="500" src="/image/peak-bg.png"
+            class="rounded-xl object-contain aspect-square w-full h-full" />
         </div>
       </div>
 
