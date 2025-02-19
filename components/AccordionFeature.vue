@@ -7,22 +7,26 @@ const accordionItems = [
   {
     id: 'sync-cloud',
     title: 'Sincronización en la nube',
-    content: 'Mantén tus datos actualizados automáticamente a través de Google Drive. La sincronización es en tiempo real y te permite tener toda tu información respaldada de forma segura en la nube.'
+    content: 'Mantén tus datos actualizados automáticamente a través de Google Drive. La sincronización es en tiempo real y te permite tener toda tu información respaldada de forma segura en la nube.',
+    icon: 'heroicons:cloud-16-solid'
   },
   {
     id: 'device-access',
     title: 'Acceso desde dispositivos',
-    content: 'Actualmente el servicio está optimizado y disponible exclusivamente para dispositivos móviles Android. Trabajamos continuamente para expandir la compatibilidad con otras plataformas en el futuro.'
+    content: 'Actualmente el servicio está optimizado y disponible exclusivamente para dispositivos móviles Android. Trabajamos continuamente para expandir la compatibilidad con otras plataformas en el futuro.',
+    icon: 'heroicons:device-phone-mobile-16-solid'
   },
   {
     id: 'task-management',
     title: 'Gestión de tareas',
-    content: 'Agregar tareas es muy sencillo: solo pulsa el botón "+", escribe la descripción y organízala en las categorías que prefieras. Personaliza las categorías según tus necesidades para mantener todo organizado de manera eficiente.'
+    content: 'Agregar tareas es muy sencillo: solo pulsa el botón "+", escribe la descripción y organízala en las categorías que prefieras. Personaliza las categorías según tus necesidades para mantener todo organizado de manera eficiente.',
+    icon: 'heroicons:clipboard-document-list-16-solid'
   },
   {
     id: 'reminders',
     title: 'Sistema de recordatorios',
-    content: 'Establece recordatorios para tus tareas importantes. Configura alarmas personalizadas, elige la frecuencia (única vez, diaria, semanal o mensual) y recibe notificaciones directamente en tu dispositivo Android cuando sea el momento.'
+    content: 'Establece recordatorios para tus tareas importantes. Configura alarmas personalizadas, elige la frecuencia (única vez, diaria, semanal o mensual) y recibe notificaciones directamente en tu dispositivo Android cuando sea el momento.',
+    icon: 'heroicons:bell-alert-16-solid'
   }
 ];
 
@@ -43,7 +47,7 @@ const toggleAccordion = (id) => {
         class="group flex gap-x-4 text-start w-full p-4 bg-gray-100 rounded-xl" @click="toggleAccordion(item.id)">
         <div class="flex-shrink-0">
           <span class="text-gray-600 size-4.5">
-            {{ openItem === item.id ? '-' : '+' }}
+            <Icon :name="item.icon" />
           </span>
         </div>
 
