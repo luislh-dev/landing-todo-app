@@ -32,7 +32,7 @@ const currentPreviewComponent = computed(() => {
       <div class="relative ">
         <!-- Imagen de fondo -->
         <img width="400" height="400" src="/image/peak-bg.png"
-          class="rounded-xl object-contain aspect-square w-full h-full" />
+          class="rounded-xl object-contain aspect-square w-full h-full" alt="Imagen de fondo" />
 
         <!-- Elemento superpuesto (esquina inferior derecha) -->
         <div class="absolute bottom-0 right-0 w-[90%] h-[90%] bg-gray-900/50 rounded-tl-xl rounded-br-xl aspect-square">

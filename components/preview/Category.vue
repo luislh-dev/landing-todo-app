@@ -15,7 +15,9 @@
             <div class="p-2 relative bg-gray-200 rounded-lg">
               Salud
               <div class="absolute inset-0 left-4 flex items-center justify-center">
-                <div class="w-7 h-7 lg:w-8 lg:h-8 2xl:w-9 2xl:h-9 border-2 border-fuchsia-400 rounded-full bg-transparent"></div>
+                <div
+                  class="w-7 h-7 lg:w-8 lg:h-8 2xl:w-9 2xl:h-9 border-2 border-fuchsia-400 rounded-full bg-transparent">
+                </div>
               </div>
             </div>
             <div class="p-2">Hogar</div>

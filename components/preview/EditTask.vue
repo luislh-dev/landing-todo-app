@@ -21,15 +21,15 @@
           </div>
         </div>
       </div>
-      
+
       <div class="border-t border-gray-200" />
 
       <div class="flex items-center gap-2 justify-between">
         <div class="flex items-center gap-2">
-          <Icon name="heroicons:calendar-16-solid"/>
+          <Icon name="heroicons:calendar-16-solid" />
           <span class="responsive-text">Vie, 21 de feb. de 2025, 10:00 a.m.</span>
         </div>
-        <Icon name="heroicons:chevron-down-16-solid"/>
+        <Icon name="heroicons:chevron-down-16-solid" />
       </div>
     </div>
   </div>
