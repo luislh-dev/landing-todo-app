@@ -17,3 +17,10 @@
 .container-default {
   @apply container mx-auto px-2 xl:px-40;
 }
+
+
+@layer components {
+  .responsive-text {
+    @apply text-xs lg:text-sm 2xl:text-lg;
+  }
+}
