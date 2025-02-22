@@ -74,7 +74,11 @@ const handleSelectItem = (itemId) => {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 10%);
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.9) 10%,
+      rgba(255, 255, 255, 0.9) 90%,
+      rgba(255, 255, 255, 0) 100%);
   pointer-events: none;
 }
 </style>
