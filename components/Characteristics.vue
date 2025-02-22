@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full py-32 relative " id="caracteristicas">
+  <section class="w-full py-48 relative " id="caracteristicas">
     <div class="gradient-overlay" />
 
     <div class="container-default">
