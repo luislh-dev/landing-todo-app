@@ -5,7 +5,7 @@
       <div class="flex items-center justify-between pb-1 lg:pb-2 2xl:pb-3">
         <div class="flex items-center gap-2">
           <Icon name="heroicons:arrow-path-16-solid" class="text-fuchsia-600" />
-          <h3 class="font-bold text-gray-800">Sincronización automática</h3>
+          <div class="font-bold text-gray-800">Sincronización automática</div>
         </div>
         <!-- toggle decorativo-->
         <div className="relative inline-flex items-center">
