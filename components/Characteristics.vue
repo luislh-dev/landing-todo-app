@@ -39,17 +39,17 @@ const accordionItems = [
     previewComponent: 'SyncCloudPreview'
   },
   {
-    id: 'device-access',
-    title: 'Acceso desde dispositivos',
-    content: 'Actualmente el servicio está optimizado y disponible exclusivamente para dispositivos móviles Android. Trabajamos continuamente para expandir la compatibilidad con otras plataformas en el futuro.',
-    icon: 'heroicons:device-phone-mobile-16-solid',
-    previewComponent: 'DeviceAccessPreview'
+    id: 'task-management',
+    title: 'Añadir tareas',
+    content: 'Agregar tareas es muy sencillo, solo pulsa el botón "+" y empieza a escribir.',
+    icon: 'heroicons:plus-circle-16-solid',
+    previewComponent: 'TaskManagementPreview'
   },
   {
-    id: 'task-management',
-    title: 'Gestión de tareas',
-    content: 'Agregar tareas es muy sencillo: solo pulsa el botón "+", escribe la descripción y organízala en las categorías que prefieras. Personaliza las categorías según tus necesidades para mantener todo organizado de manera eficiente.',
-    icon: 'heroicons:clipboard-document-list-16-solid',
+    id: 'categories',
+    title: 'Categorías',
+    content: 'Organiza tus tareas en categorías personalizadas. Asigna un color a cada categoría para identificarlas rápidamente y filtrarlas según tus necesidades.',
+    icon: 'heroicons:tag-16-solid',
     previewComponent: 'TaskManagementPreview'
   },
   {
@@ -58,6 +58,13 @@ const accordionItems = [
     content: 'Establece recordatorios para tus tareas importantes. Configura alarmas personalizadas, elige la frecuencia (única vez, diaria, semanal o mensual) y recibe notificaciones directamente en tu dispositivo Android cuando sea el momento.',
     icon: 'heroicons:bell-alert-16-solid',
     previewComponent: 'RemindersPreview'
+  },
+  {
+    id: 'edit-tasks',
+    title: 'Editar tareas',
+    content: 'Edita tus tareas en cualquier momento. Cambia el nombre, la descripción, la fecha de vencimiento, la categoría y el estado de la tarea con un solo clic.',
+    icon: 'heroicons:pencil-16-solid',
+    previewComponent: 'PreviewEditTask'
   }
 ];
 

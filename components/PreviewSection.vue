@@ -1,6 +1,8 @@
 <script setup>
 import { computed } from 'vue';
 import DeviceAccessPreview from './DeviceAccessPreview.vue';
+import Category from './preview/Category.vue';
+import EditTask from './preview/EditTask.vue';
 import RemindersPreview from './RemindersPreview.vue';
 import SyncCloudPreview from './SyncCloudPreview.vue';
 import TaskManagementPreview from './TaskManagementPreview.vue';
@@ -14,8 +16,9 @@ const props = defineProps({
 
 const previewComponents = {
   'sync-cloud': SyncCloudPreview,
-  'device-access': DeviceAccessPreview,
   'task-management': TaskManagementPreview,
+  'edit-tasks': EditTask,
+  'categories': Category,
   'reminders': RemindersPreview
 };
 
