@@ -26,7 +26,7 @@ const currentPreviewComponent = computed(() => {
 
 <template>
   <div>
-    <div class="sticky top-56">
+    <div class="sticky top-20">
       <div class="relative ">
         <!-- Imagen de fondo -->
         <img width="400" height="400" src="/image/peak-bg.png"
