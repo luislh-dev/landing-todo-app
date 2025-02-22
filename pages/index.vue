@@ -2,5 +2,6 @@
   <div>
     <Hero />
     <Characteristics />
+    <Views />
   </div>
 </template>
