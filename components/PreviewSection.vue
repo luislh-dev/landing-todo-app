@@ -1,6 +1,5 @@
 <script setup>
 import { computed } from 'vue';
-import DeviceAccessPreview from './DeviceAccessPreview.vue';
 import Category from './preview/Category.vue';
 import EditTask from './preview/EditTask.vue';
 import RemindersPreview from './RemindersPreview.vue';
