@@ -1,1 +1,5 @@
+User-agent: *
+Disallow: /api/
+Allow: /
 
+Sitemap: https://todoapp.luislh.dev/sitemap.xml

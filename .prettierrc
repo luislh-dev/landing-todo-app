@@ -3,5 +3,14 @@
   "singleQuote": true,
   "trailingComma": "es5",
   "printWidth": 100,
-  "tabWidth": 2
+  "tabWidth": 1,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
 }
